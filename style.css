@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    height: 100vh ;
+}
+header{
+    display: flex ;
+    justify-content: center;
+    padding: 40px 4%;
+}
+#banner{
+    display: flex;
+    max-width: 1280px;
+    margin-right: 100px;
+}
+a img{
+    width: 400px;
+    height: auto;
+}
+.menup{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav{
+
+    list-style-type: none;
+}
+#lista{
+    display: flex;
+    gap: 100px;
+}
+#btn button{
+    padding: 10px 40px;
+    margin-left: 100px;
+} 
+button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 255, 0.759);
+    color: aliceblue;
+    border-radius: 30px;
+}
+i{
+    margin-right: 10px;
+}
